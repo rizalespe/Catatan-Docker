@@ -1,10 +1,10 @@
 # Instalasi MariaDB Server
 1. Menambahkan repositori MariaDB
   ```
-  # sudo yum install wget
-  # wget https://downloads.mariadb.com/MariaDB/mariadb_repo_setup
-  # chmod +x mariadb_repo_setup
-  # sudo ./mariadb_repo_setup
+  sudo yum install wget
+  wget https://downloads.mariadb.com/MariaDB/mariadb_repo_setup
+  chmod +x mariadb_repo_setup
+  sudo ./mariadb_repo_setup
   ```
  2. Instalasi MariaDB server
   ```
