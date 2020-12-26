@@ -77,7 +77,7 @@ Berikut adalah langkah-langkah yang dilakukan untuk menginisiasi web server mula
     ```
   - Install modul yang biasa digunakan
     ```
-      sudo yum install php72-php-fpm php72-php-gd php72-php-json php72-php-mbstring php72-php-mysqlnd php72-php-xml php72-php-xmlrpc php72-php-opcache php-intl php-mbstring 
+      sudo yum install php72-php-fpm php72-php-gd php72-php-json php72-php-mbstring php72-php-mysqlnd php72-php-xml php72-php-xmlrpc php72-php-opcache php-intl php-mbstring php-xml 
     ```
   - Verifikasi versi PHP
     ```
