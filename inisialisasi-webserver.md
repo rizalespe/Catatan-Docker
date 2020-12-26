@@ -98,3 +98,7 @@ Berikut adalah langkah-langkah yang dilakukan untuk menginisiasi web server mula
         firewall-cmd --permanent --add-service=https
         firewall-cmd --reload
       ```
+6. Uninstall Apache dan PHP
+  ```
+    yum remove httpd* php*
+  ```
