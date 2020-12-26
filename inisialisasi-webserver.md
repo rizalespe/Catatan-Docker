@@ -57,6 +57,7 @@ Berikut adalah langkah-langkah yang dilakukan untuk menginisiasi web server mula
   - Install system utility
     ```
     yum install nano wget curl net-tools lsof bash-completion
+    yum group install "Development Tools"
     ```
 
 ### Apabila akan menggunakan Docker, lanjutkan pada langkah No. 7
