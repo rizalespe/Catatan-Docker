@@ -58,6 +58,10 @@ Berikut adalah langkah-langkah yang dilakukan untuk menginisiasi web server mula
     ```
     yum install nano wget curl net-tools lsof bash-completion
     ```
+
+### Apabila akan menggunakan Docker, lanjutkan pada langkah No. 7
+
+
 4. Install PHP interpreter, pada catatan ini saya melakukan instalasi untuk versi 7.2
   - Turn on Remi repo i.e.remi-php72
     ```
@@ -102,3 +106,4 @@ Berikut adalah langkah-langkah yang dilakukan untuk menginisiasi web server mula
   ```
     yum remove httpd* php*
   ```
+7. Install Docker service dengan mengikuti langkah-langkah yang ada pada halaman berikut: [tautan instalasi Docker](https://github.com/rizalespe/Catatan-Docker/blob/master/Instalasi-Docker.md) 
